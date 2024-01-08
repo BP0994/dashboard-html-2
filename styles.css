@@ -1,0 +1,58 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@import url('https://unpkg.com/daisyui@latest/dist/full.css');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 900;
+  scroll-behavior: smooth;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 2px solid #39e1ff;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  bottom: 8px;
+  background: #3300ff
+    url("http://codemenatalie.com/wp-content/uploads/2019/09/slider-thumb.png")
+    center no-repeat;
+  background-size: 50%;
+  box-shadow: 0px 3px 5px 0px rgba(76, 48, 255, 0.192);
+  cursor: grab;
+    
+    &:active {
+      cursor: grabbing;
+    }
+
+  }
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1a4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #88888862;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #55555556;
+}

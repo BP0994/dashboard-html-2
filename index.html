@@ -1,0 +1,358 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" href="data:image/jpeg;base64,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" type="image/x-icon">
+  <title>Dashboard</title>
+</head>
+
+<body>
+
+
+  <div class=" flex flex-col lg:flex-row justify-between bg-slate-50 w-full">
+    <div class="flex flex-col lg:flex-row  bg-slate-50 ">
+      <!-- Sidebar Start -->
+      <div class="hidden sm:block flex items-start justify-start  h-screen p-0 bg-slate-50 fixed">
+        <div class="flex flex-col items-center  h-full overflow-hidden text-gray-400 bg-slate-50">
+          <a class="flex items-center justify-center mt-3" href="#">
+            <svg class="w-8 h-8 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+              fill="currentColor">
+              <path
+                d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 8.342A1 1 0 003 9.236V15a1 1 0 00.553.894l4 2A1 1 0 009 17v-5.764a1 1 0 00-.553-.894l-4-2z" />
+            </svg>
+          </a>
+          <a class="flex items-center justify-center w-12 h-12 mt-2 rounded hover:bg-indigo-800 hover:text-gray-300"
+            href="#">
+            <svg class="w-6 h-6 stroke-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </a>
+          <div class="flex flex-col items-center mt-10 border-gray-700">
+            <a class="flex items-center justify-center w-12 h-12 mt-2 rounded hover:bg-indigo-800 hover:text-gray-300"
+              href="#">
+              <svg class="w-6 h-6 stroke-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+              </svg>
+            </a>
+
+            <a class="flex items-center justify-center w-12 h-12 mt-2 hover:bg-indigo-800 rounded" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" />
+              </svg>
+            </a>
+
+            <a class="flex items-center justify-center w-12 h-12 mt-2 hover:bg-indigo-800 rounded" href="#">
+              <svg class="w-6 h-6 stroke-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"  hover:bg-indigo-800 roundedstroke-width="2"
+                  d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+            </a>
+            <a class="flex items-center justify-center w-12 h-12 mt-2 rounded hover:bg-indigo-800 hover:text-gray-300"
+              href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+              </svg>
+            </a>
+          </div>
+          <div class="flex flex-col items-center mt-2 border-gray-700 absolute bottom-0">
+            <a class="relative flex items-center justify-center w-12 h-12 mt-2 rounded hover:bg-indigo-800 hover:text-gray-300"
+              href="#">
+              <svg class="w-6 h-6 stroke-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+              </svg>
+              <span class="absolute top-0 left-0 w-2 h-2 mt-2 ml-2 bg-indigo-500 rounded-full"></span>
+            </a>
+            <a class="flex items-center justify-center w-12 h-12 mt-2 rounded hover:bg-indigo-800 hover:text-gray-300"
+              href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      
+      <div class="bottom-0 fixed  z-10 max-[360px]:mx-4 max-[450px]:mx-8  mx-36 max-[470px]:mx-16 max-[520px]:mx-20 max-[600px]:mx-28 sm:hidden l-center">
+        
+        <ul class="menu menu-horizontal bg-blue-100 rounded-box mt-6">
+          <li>
+            <a class="tooltip hover:bg-indigo-800 rounded" data-tip="Home">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
+            </a>
+          </li>
+          <li>
+            <a class="tooltip hover:bg-indigo-800 rounded"
+            href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" />
+              </svg>
+          </a>
+          </li>
+          <li>
+            <a class="tooltip hover:bg-indigo-800 rounded"
+            href="#">
+            <svg class="w-5 h-5 stroke-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"  hover:bg-indigo-800 roundedstroke-width="2"
+                  d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+          </a>
+          </li>
+          <li>
+            <a class="toolti5 rounded hover:bg-indigo-800 hover:text-gray-300"
+              href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="tooltip hover:bg-indigo-800 rounded"
+            href="#">
+            <svg class="w-5 h-5 stroke-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </a>
+          </li>
+        </ul>
+        
+      </div>
+      
+      <!-- Sidebar End -->
+
+      <!-- User's Panel Start -->
+      <div class="sm:ml-8 ">
+        <div class="bg-slate-100 text-black pl-8 md:pl-0 m-8 md:m-4">
+          <div class="container d-flex justify-content-center pl-4 pt-16 pr-4 ">
+            <div class="flex align-center justify-center gap-8 lg:gap-2">
+              <img src="data:image/jpeg;base64,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" class="img-fluid rounded-full w-20 lg:w-16 lg:h-16"  />
+
+              <div class="">
+                <h2 class="text-3xl sm:text-1xl ">Hi, Mike</h2>
+                <p class="text-gray-300 lg:text-xs">welcome back</p>
+              </div>
+            </div>
+            <div class="flex flex-col justify-center align-center md:ml-16 lg:ml-0 w-full mt-16 lg:mt-0 h-full pb-12">
+              <div class="flex flex-col justify-center  lg:justify-start align-center lg:my-4">
+                <h3 class="text-3xl lg:text-1xl my-4">Today</h3>
+                <h1 class="text-3xl lg:text-2xl font-bold"><strong>$</strong> 11,980</h1>
+                <p class="text-gray-400 lg:text-xs">Account Balance</p>
+              </div>
+              <div class="flex flex-col justify-start align-center my-4">
+                <h1 class="text-lg lg:text-1xl"><strong>$</strong> 4,000</h1>
+                <p class="text-gray-400 lg:text-xs lg:font-thin">Year-to-Date Contribution</p>
+              </div>
+              <div class="flex flex-col justify-start align-center my-4">
+                <h1 class="text-lg lg:text-1xl"><strong>$</strong> 1,980</h1>
+                <p class="text-gray-400 lg:font-thin lg:text-xs">Total Interest</p>
+              </div>
+              <button class="btn btn-primary max-w-32">I want to</button>
+
+              <div class="flex flex-col justify-start align-center mt-16">
+                <h1 class="lg:text-1xl text-base">Recent Transitions</h1>
+              </div>
+              <div class="flex flex-col justify-start align-center my-8 border-b border-gray">
+                <p class="text-gray-400 lg:font-thin lg:text-xs">2023-12-12</p>
+                <h1 class="lg:text-1xl lg:text-sm">Withdrawal Transfer to Bank xxx11</h1>
+              </div>
+              <div class="flex flex-col justify-start align-center my-8 border-b border-gray">
+                <p class="text-gray-400 lg:font-thin lg:text-xs">2023-12-12</p>
+                <h1 class="lg:text-1xl lg:text-sm">Withdrawal Transfer to Bank xxx11</h1>
+              </div>
+              <div class="flex flex-col justify-start align-center my-8 border-b border-gray">
+                <p class="text-gray-400 lg:font-thin lg:text-xs">2023-12-12</p>
+                <h1 class="lg:text-1xl lg:text-sm">Withdrawal Transfer to Bank xxx11</h1>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- User's Panel End -->
+
+      <!-- Chart panel Start -->
+      <div  class="p-2 sm:p-8 ml-0 sm:ml-4 lg:ml-0 flex flex-col">
+        <div>
+          <h1 class="text-1xl text-blue-600">Retirement Income</h1>
+          <h1 class="text-2xl text-black">Starting Year 2024</h1>
+        </div>
+        <div class="flex gap-8 md:gap-16 mt-12 ">
+          <div class="border-b border-blue-900 flex flex-col gap-2">
+            <h1 class="text-black text-1xl">$ 300,000</h1>
+            <p class=" text-sm">My goal</p>
+          </div>
+          <div class="border-b border-blue-900 flex flex-col gap-2">
+            <h1 class="text-black text-1xl">59%</h1>
+            <p class="text-sm">Goal Achieved</p>
+          </div>
+          <div class="border-b border-blue-900 flex flex-col gap-2">
+            <h1 class="text-black text-1xl">$ 300</h1>
+            <p class="text-sm">Est. Monthly Income</p>
+          </div>
+        </div>
+
+        <div class="mt-16">
+          <h1 class="text-black text-2xl mb-12">Contribution Overtime</h1>
+          <div class="phppot-container animation-none ">
+            <canvas id="stacker-bar-chart" class="w-[350px] sm:w-[600px] md:w-[600px]"></canvas>
+          </div>
+        </div>
+        <div class="mt-12">
+          <h1 class="text-black text-2xl">How do I compare to my peers?</h1>
+          <p class="text-sm font-thin">These number represent current goal achievement</p>
+        </div>
+
+        <!-- Donant chart start  -->
+
+
+        <div class="flex flex-col md:flex-row align-center mt-2 gap-8 ml-8">
+          <div class="felx flex-col">
+
+            <div class="flex mt-4 align-center">
+              <h1 class="text-black mr-12 w-4 text-center">Age:</h1>
+              <select class="select select-ghost w-28">
+                <option disabled selected>Age</option>
+                <option>Under 18</option>
+                <option>Under 35</option>
+                <option>Under 60</option>
+                <option>60+</option>
+              </select>
+            </div>
+            <div class="flex mt-4">
+              <h1 class="text-black mr-16 w-4">Sallary:</h1>
+              <select class="select select-ghost w-28 ">
+                <option disabled selected>Sallary</option>
+                <option>20k-30k</option>
+                <option>30K-50K</option>
+                <option>50K-1Lac</option>
+                <option>1Lac+</option>
+              </select>
+            </div>
+            <div class="flex mt-4 align-center">
+              <h1 class="text-black mr-16 w-4">Gender:</h1>
+              <select class="select select-ghost w-28">
+                <option disabled selected>Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+              </select>
+            </div>
+          </div>
+          <div class="flex justify-between sm:gap-12 ">
+            <div class="mt-16">
+              <div class="radial-progress text-[rgb(35,214,171)]" style="--value: 70;--size:4rem; --thickness: 8px" role="progressbar">
+                70%
+              </div>
+              <h1 class="mt-2 text-black">Average</h1>
+            </div>
+            <div class="mt-16 flex flex-col align-center ">
+              <div class="radial-progress text-[rgb(35,214,171)]" style="--value: 95;--size:4rem; --thickness: 8px" role="progressbar">
+                95%
+              </div>
+              <h1 class="mt-2 text-black ml-4 ">Top</h1>
+            </div>
+            <div class="mt-16">
+              <div class="radial-progress text-[rgb(35,214,171)]" style="--value: 59;--size:4rem; --thickness: 8px" role="progressbar">
+                59%
+              </div>
+              <h1 class="mt-2 text-black ml-4">Me</h1>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Donant chart End  -->
+    </div>
+
+    <!-- Chart Panel End -->
+
+
+    <!-- Left Bar start  -->
+
+    <div class="mx-8 md:ml-16 lg:ml-0 flex flex-col relative p-4 mt-2 mr-2 border rounded bg-slate-100 gap-8 mb-40 lg:mb-0">
+      <h1 class="text-black text-2xl">Retirement stategy</h1>
+      <div class="mt-8">
+        <h1 class="text-black text-1xl mb-4">Employee Contribution</h1>
+        <div class="flex gap-4">
+          <Input class="range text-gray-900" type="range" name "" value="12" min="0" max="100"
+            onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
+          <span id="rangeValue">12%</span>
+        </div>
+      </div>
+      <div class="border-b">
+        <h1 class="text-black text-1xl mb-4">Retirement Age</h1>
+        <div class="flex gap-4">
+          <Input class="range text-gray-900" type="range" name "" value="65" min="0" max="100"
+            onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
+          <span id="rangeValue">65</span>
+        </div>
+      </div>
+
+      <div class="flex gap-4 justify-between">
+        <h1 class="text-black font-black">Employer Contribution</h1>
+        <p>8.4%</p>
+      </div>
+      <div class="flex gap-4 justify-between">
+        <h1 class="text-black font-black">Interest Rate</h1>
+        <p>5%</p>
+      </div>
+      <div class="flex flex-col ">
+        <button class="btn btn-wide btn-primary">Update</button>
+        <h1 class="text-blue-700 ml-4 mt-2 cursor-pointer flex gap-4">View Help Docs <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+        </svg>
+        </h1>
+      </div>
+
+      <div class="mt-8 w-200px lg:w-full flex gap-2 border-l-4 border-blue-700  flex-col">
+        <div class="ml-8">
+        <h1 class="text-black text-1xl">Are you considering a</h1>
+        <h1 class="text-black text-1xl"><Strong>Housing Advance</Strong></h1>
+        <p>Limited time reduced interest.</p>
+        <p class="text-blue-700 text-1xl">Learn More 
+        </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Left Bar End  -->
+  </div>
+  </div>
+
+
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js" type="module"></script>
+  <script src="
+  https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js
+  "></script>
+</body>
+
+</html>
